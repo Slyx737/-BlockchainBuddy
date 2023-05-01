@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "AI Crypto Assistant",
+  "version": "1.0",
+  "description": "An AI-powered crypto assistant with wallet setup and management features",
+  "icons": {
+    "128": "index.html"
+  },
+  "browser_action": {
+    "default_icon": "plugin-icon.jpg",
+    "default_popup": "index.html",
+    "default_title": "AI Crypto Assistant"
+  },
+  "permissions": ["activeTab", "storage"]
+}
